@@ -19,9 +19,9 @@ xsize = image.shape[1]
 # Making a copy of the image
 img_copy = np.copy(image)
 
-red_threshold = 195
-blue_threshold = 195
-green_threshold = 195
+red_threshold = 200
+blue_threshold = 200
+green_threshold = 200
 rgb_threshold = [red_threshold, blue_threshold, green_threshold]
 
 # Identifying the pixels below threshold
